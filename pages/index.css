@@ -1,11 +1,18 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+/* Blocks */
 @import '../blocks/page/page.css';
-/* Header */ 
+/* Header */
 @import '../blocks/header/header.css';
-@import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__img/header__img.css';
+@import '../blocks/header/__main-title/header__main-title.css';
+@import '../blocks/header/__second-title/header__second-title.css';
+/* Nav */
+@import '../blocks/nav/nav.css';
+@import '../blocks/nav/__list/nav__list.css';
+@import '../blocks/nav/__item/nav__item.css';
+@import '../blocks/nav/__logo/nav__logo.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
