@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Cuber</title>
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="nav">
@@ -24,27 +25,40 @@
       <h3 class="header__second-title">Puzzle store</h3>
     </div>
   </header>
+
   <main class="main">
     <section class="about">
       <h2 class="about__title">About us</h2>
-      <p class="about__text">Rubik's Cube is an ingenious invention, an incredibly interesting puzzle. CUBER store will help you choose the right cube for you. Whether you are a beginner or a speedcuber, we have everything you need! The store has been operating since 2010 and offers you a wide selection of puzzles. We always have new items and timeless classics at low prices!</p>
+      <div class="about__text">
+        <p class="about__first-text">Rubik's Cube is an ingenious invention, an incredibly interesting puzzle. CUBER store will help you choose the right cube for you. Whether you are a beginner or a speedcuber, we have everything you need!</p>
+        <p class="about__second-text">The store has been operating since 2010 and offers you a wide selection of puzzles. We always have new items and timeless classics at low prices!</p>
+      </div>
     </section>
     <section class="catalog">
       <h2 class="catalog__title">Catalog</h2>
-      <img class="catalog__img-cube" src="images\catalog\__img-cube.png" alt="Кубик Рубика">
-      <img class="catalog__img-pyraminx" src="images\catalog\__img-pyraminx.png" alt="Пирамидка">
-      <img class="catalog__img-megaaminx" src="images\catalog\__img-megaminx.png" alt="Мегаминкс">
-      <ul class="catalog__list">
-        <li class="catalog__item">Cubes</li>
-        <li class="catalog__item">Pyraminxes</li>
-        <li class="catalog__item">Megaminxes</li>
-      </ul>
+      <div class="catalog__wrap">
+        <div class="catalog__item">
+          <img class="catalog__img" src="images\catalog\__img-cube.png" alt="Кубик Рубика">
+          <p class="catalog__text">Cubes</p>
+        </div>
+        <div class="catalog__item">
+          <img class="catalog__img" src="images\catalog\__img-pyraminx.png" alt="Пирамидка">
+          <p class="catalog__text">Pyraminxes</p>
+        </div>
+        <div class="catalog__item">
+          <img class="catalog__img" src="images\catalog\__img-megaminx.png" alt="Мегаминкс">
+          <p class="catalog__text">Megaminxes</p>
+        </div>
+      </div>
     </section>
   </main>
+
   <footer class="footer">
-    <img class="icon-vk" src="images\icons\vk.png" alt="VK">
-    <img class="icon-telegram" src="images\icons\telegram.png" alt="Telegram">
-    <img class="icon-youtube" src="images\icons\youtube.png" alt="YouTube">
+    <div class="footer__icons">
+      <img class="icon" src="images\icons\vk.png" alt="VK">
+      <img class="icon" src="images\icons\telegram.png" alt="Telegram">
+      <img class="icon" src="images\icons\youtube.png" alt="YouTube">
+    </div>
     <p class="footer__text">©CUBER, 2010</p>
   </footer>
 </body>

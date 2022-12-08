@@ -15,5 +15,18 @@
 @import '../blocks/nav/__logo/nav__logo.css';
 /* Main */
 @import '../blocks/main/main.css';
+/* About */
+@import '../blocks/main/about/__title/about__title.css';
+@import '../blocks/main/about/__first-text/about__first-text.css';
+@import '../blocks/main/about/__second-text/about__second-text.css';
+@import '../blocks/main/about/about.css';
+@import '../blocks/main/about/__text/about__text.css';
+/* Catalog */
+@import '../blocks/main/catalog/__title/catalog__title.css';
+@import '../blocks/main/catalog/catalog.css';
+@import '../blocks/main/catalog/__text/catalog__text.css';
+@import '../blocks/main/catalog/__wrap/catalog__wrap.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/__icons/footer__icons.css';
+@import '../blocks/footer/__text/footer__text.css';
