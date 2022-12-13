@@ -16,16 +16,16 @@
 /* Main */
 @import '../blocks/main/main.css';
 /* About */
-@import '../blocks/main/about/__title/about__title.css';
-@import '../blocks/main/about/__first-text/about__first-text.css';
-@import '../blocks/main/about/__second-text/about__second-text.css';
-@import '../blocks/main/about/about.css';
-@import '../blocks/main/about/__text/about__text.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__first-text/about__first-text.css';
+@import '../blocks/about/__second-text/about__second-text.css';
+@import '../blocks/about/about.css';
+@import '../blocks/about/__text/about__text.css';
 /* Catalog */
-@import '../blocks/main/catalog/__title/catalog__title.css';
-@import '../blocks/main/catalog/catalog.css';
-@import '../blocks/main/catalog/__text/catalog__text.css';
-@import '../blocks/main/catalog/__wrap/catalog__wrap.css';
+@import '../blocks/catalog/__title/catalog__title.css';
+@import '../blocks/catalog/catalog.css';
+@import '../blocks/catalog/__text/catalog__text.css';
+@import '../blocks/catalog/__wrap/catalog__wrap.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__icons/footer__icons.css';
